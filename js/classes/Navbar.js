@@ -3,20 +3,12 @@ export default class Navbar extends CreateDom {
   constructor(tabs) {
     super();
     this.tabs = tabs;
-    // construction du dom de la carte
-    this.domElements = this.render();
-    // gestion des événements
-    this.handleEvents();
+    this.render();
   }
-  handleEvents = () => {
-    this.domElements.button.onclick = () => {
-
-    };
-  };
   render = () => {
     const header = document.querySelector("#header");
     const nav = this.createAddDomElt("nav", "", header, {
-      class: "navbar navbar-expand-lg navbar-light bg-light",
+      class: "navbar fixed-top navbar-expand-lg navbar-dark bg-secondary",
     });
     const brand = this.createAddDomElt("a", "Nicolas HORNUEL", nav, {
       class: "navbar-brand",
