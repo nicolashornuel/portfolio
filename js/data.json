@@ -1,20 +1,33 @@
 {
     "navData": [
         {
-            "name": "My Projects",
-            "href": "#card-anchor"
+            "name": "Accueil",
+            "href": "#home"
+        },
+        {
+            "name": "A propos",
+            "href": "#about"
         }
     ],
-    "jumboData": {
-        "title": "Hello!",
-        "firstParagraph": "After working in the printing pre-press for over 15 years, i wanted to move and learn in software development. So in December 2020 i started a six-month training at the Diginamic center in Montpellier City. Later, i continued an internship in a start'up specializing in e-commerce and the e-sport ecosystem.",
-        "secondParagraph": " Today, i continue my apprenticeship in the web domain, here are below my current skills."
+    "homeData": {
+        "text1": "Bonjour, mon nom est",
+        "text2": "Nicolas HORNUEL",
+        "text3": "Je suis ",
+        "span": ["Développeur Angular", "UX/UI Designer", "Développeur Java Spring"]
+    },
+    "aboutData": {
+        "title": "A propos de moi",
+        "subtitle": "Qui je suis",
+        "text": "Nicolas HORNUEL | ",
+        "span": ["Développeur Angular", "UX/UI Designer", "Développeur Java Spring"],
+        "firstParagraph": "Après avoir travaillé de nombreuses années en tant que technicien graphique au sein d'imprimerie Offset, j'ai souhaité changé et apprendre la programmation et le développement logiciel. J'ai donc suivi une formation de Concepteur et Développeur d'Application de 9 mois sur les technos Web actuelles. Aujourd'hui je poursuis mon apprentissage et vous présente ci-dessous mes compétences.",
+        "secondParagraph": "After working in the printing pre-press for over 15 years, i wanted to move and learn in software development. So in December 2020 i started a six-month training at the Diginamic center in Montpellier City. Later, i continued an internship in a start'up specializing in e-commerce and the e-sport ecosystem. Today, i continue my apprenticeship in the web domain, here are below my current skills."
     },
     "cardData": [
         {
             "img": "./img/music-video-center.png",
             "title": "PoC Music-Video-Center",
-            "paragraph": "development web app about music with angular v12, material components, Back-End Nodejs, Database and hosting with Google Firebase. Call API Wikipedia, Youtube, Discogs.",
+            "paragraph": "development web app about music with angular v12, material components, Back-End Nodejs, Database and hosting with Google Firebase. Call API Wikipedia, Youtube, Discogs, RadioFrance (GraphQL).",
             "href": "https://fourthproject-aff75.web.app/"
         }
     ]

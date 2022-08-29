@@ -1,0 +1,31 @@
+#navbar {
+    transition: all 0.5s;
+    padding: 1.5rem 3rem;
+
+    .navbar-collapse {
+        justify-content: flex-end;
+
+        li a {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 25px;
+        }
+    }
+
+    &.scrolled-down {
+        padding: 0.5rem 3rem;
+        background-color: $primary-color;
+        a span {
+            color: white;
+        }
+    }
+    .navbar-brand {
+        font-weight: 600;
+        font-size: 30px;
+        span {
+            color: $primary-color;
+            transition: all 0.5s;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+}
+
+@media (max-width: 947px) {
+    .max-width {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
