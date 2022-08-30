@@ -15,7 +15,7 @@ export default class About extends CreateDom {
     const h1 = this.createAddDomElt("h1", this.data.title, container, { class: "title", subtitle: this.data.subtitle });
     const content = this.createAddDomElt("div", "", container, { class: "about-content"});
     const left = this.createAddDomElt("div", "", content, { class: "column left"});
-    const img = this.createAddDomElt("img", "", left, { src: "img/_YM_0162-v2.jpg" });
+    const img = this.createAddDomElt("img", "", left, { src: "img/portrait-v2.jpg" });
     const right = this.createAddDomElt("div", "", content, { class: "column right"});
     const text = this.createAddDomElt("div", this.data.text, right, { class: "text" });
     const typed = new MyTyped(text, this.data.span, "typed-about");
