@@ -1,4 +1,4 @@
-#home {
+.home {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5) 95%),
         url('../img/portrait-v4.jpg');
     background-repeat: no-repeat;
@@ -7,15 +7,12 @@
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    .text-container {
+
+    .home-content {
         position: absolute;
         bottom: 10px;
-        padding: 0 3rem;
         color: #fff;
         line-height: 1.1;
-        * {
-            margin: 0;
-        }
         .text1 {
             font-size: 27px;
         }
@@ -34,7 +31,7 @@
 }
 
 @media (max-width: 947px) {
-    #home .text-container {
+    .home .home-content {
         .text2 {
             font-size: 70px;
         }
@@ -46,7 +43,7 @@
 
 
 @media (max-width: 690px) {
-    #home .text-container {
+    .home .home-content {
         .text2 {
             font-size: 60px;
         }
@@ -58,7 +55,7 @@
 
 
 @media (max-width: 500px) {
-    #home .text-container {
+    .home .home-content {
         .text2 {
             font-size: 50px;
         }

@@ -1,4 +1,4 @@
-#about {
+.about {
     .title {
         position: relative;
         text-align: center;
@@ -21,7 +21,7 @@
         &:after {
             content: attr(subtitle);
             position: absolute;
-            bottom: -8px;
+            bottom: -9px;
             left: 50%;
             font-size: 20px;
             color: $primary-color;
@@ -69,7 +69,7 @@
 
 
 @media (max-width: 1104px) {
-    #about .about-content {
+    .about .about-content {
         .left img {
             height: 350px;
             width: 350px;
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 947px) {
-    #about .about-content {
+    .about .about-content {
         .column {
             width: 100%;
         }
@@ -96,7 +96,7 @@
 }
 
 @media (max-width: 500px) {
-    #about .about-content {
+    .about .about-content {
         .right .text {
             font-size: 19px;
         }

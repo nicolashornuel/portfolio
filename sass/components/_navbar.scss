@@ -1,31 +1,91 @@
-#navbar {
-    transition: all 0.5s;
-    padding: 1.5rem 3rem;
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    transition: all 0.3s ease;
 
-    .navbar-collapse {
-        justify-content: flex-end;
+    .max-width {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-        li a {
+    .brand {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+
+        span {
+            color: $primary-color;
+            transition: all 0.3s ease;
+        }
+    }
+
+    .menu li {
+        list-style: none;
+        display: inline-block;
+        a {
+            display: block;
             color: #fff;
             font-size: 14px;
             font-weight: 500;
             margin-left: 25px;
+            transition: color 0.3s ease;
         }
     }
 
-    &.scrolled-down {
-        padding: 0.5rem 3rem;
-        background-color: $primary-color;
-        a span {
-            color: white;
-        }
+    .burger {
+        color: #fff;
+        font-size: 23px;
+        cursor: pointer;
+        display: none;
     }
-    .navbar-brand {
-        font-weight: 600;
-        font-size: 30px;
-        span {
-            color: $primary-color;
-            transition: all 0.5s;
+}
+
+.navbar.sticky {
+    padding: 10px 0;
+    background: $primary-color;
+
+    .brand span {
+        color: #fff;
+    }
+}
+
+@media (max-width: 947px) {
+    .navbar {
+        .menu {
+            position: fixed;
+            height: 100vh;
+            width: 100%;
+            left: -100%;
+            top: 0;
+            background: #111;
+            text-align: center;
+            padding-top: 80px;
+            transition: all 0.3s ease;
+
+            li {
+                display: block;
+                a {
+                    display: inline-block;
+                    margin: 20px 0;
+                    font-size: 25px;
+                }
+            }
+
+            &.active {
+                left: 0;
+            }
+        }
+
+        .menu-btn {
+            display: block;
+            z-index: 999;
+
+            i.active:before {
+                content: "\f00d";
+            }
         }
     }
 }
