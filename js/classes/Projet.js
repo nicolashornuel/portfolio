@@ -1,6 +1,6 @@
 import CreateDom from "./CreateDom.js";
 
-export default class Card extends CreateDom {
+export default class Projet extends CreateDom {
   constructor(cards) {
     super();
     this.cards = cards;

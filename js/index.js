@@ -1,7 +1,7 @@
 import Navbar from "./classes/Navbar.js";
 import About from "./classes/About.js";
 import Fetch from "./services/Fetch.js";
-import Card from "./classes/Card.js";
+import Projet from "./classes/Projet.js";
 import Home from "./classes/Home.js";
 import ScrollUpBtn from "./classes/ScrollUpBtn.js";
 
@@ -14,7 +14,7 @@ async function createPage() {
   const navbar = new Navbar(obj.navbar);
   const home = new Home(obj.home);
   const jumbotron = new About(obj.about);
-  const cards = new Card(obj.card);
+  //const projets = new Projet(obj.projets);
 }
 
 window.onscroll = () => {

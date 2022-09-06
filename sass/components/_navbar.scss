@@ -32,6 +32,9 @@
             font-weight: 500;
             margin-left: 25px;
             transition: color 0.3s ease;
+            &:hover {
+                color: $primary-color;
+            }
         }
     }
 
@@ -84,7 +87,7 @@
             z-index: 999;
 
             i.active:before {
-                content: "\f00d";
+                content: '\f00d';
             }
         }
     }

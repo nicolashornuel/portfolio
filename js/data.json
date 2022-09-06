@@ -36,6 +36,30 @@
         "imgSrc": "img/portrait-v2.jpg",
         "paragraph": "Après avoir travaillé de nombreuses années en tant que technicien graphique au sein d'imprimerie Offset, j'ai souhaité changé et apprendre la programmation et le développement logiciel. J'ai donc suivi une formation de Concepteur et Développeur d'Application de 9 mois sur les technos Web actuelles. Aujourd'hui je poursuis mon apprentissage et vous présente ci-dessous mes compétences."
     },
+    "projets": [
+        {
+            "title": "PoC d'évaluation d'entrée en stage",
+            "synopsis": "Sur le thème de la musique",
+            "feature": [
+                {
+                    "title": "Front-End",
+                    "description": "Framework Angular v12, Material UI Components."
+                },
+                {
+                    "title": "Back-End",
+                    "description": "Nodejs, API Rest, monolithique, Postman."
+                },
+                {
+                    "title": "Database",
+                    "description": "Firestore de type document/collection, Realtime de type arbre JSON."
+                },
+                {
+                    "title": "API",
+                    "description": "Youtube, Wikipedia, Discogs, RadioFrance (GraphQL)"
+                }
+            ]
+        }
+    ],
     "card": [
         {
             "img": "./img/music-video-center.png",
