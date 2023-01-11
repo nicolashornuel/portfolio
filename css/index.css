@@ -467,6 +467,16 @@ footer span a:hover {
   text-align: start;
 }
 
+@media (max-width: 947px) {
+  .projects .card {
+    width: calc(50% - 15px);
+  }
+}
+@media (max-width: 690px) {
+  .projects .card {
+    width: 100%;
+  }
+}
 .references {
   background-color: #111;
 }

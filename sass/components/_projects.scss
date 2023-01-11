@@ -49,10 +49,10 @@
   border-radius: 6px;
   padding: 35px 25px;
   cursor: default;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   align-self: stretch;
   display: flex;
-  
+
   &:hover {
     background: $primary-color;
     .card-body {
@@ -67,10 +67,9 @@
     .action {
       left: 0px;
     }
-
   }
   .card-body {
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -83,12 +82,12 @@
   }
 
   i {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     color: $primary-color;
   }
 
   .synopsis {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     position: relative;
     left: 0px;
     flex-grow: 1;
@@ -97,7 +96,7 @@
   }
 
   .action {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     left: 120%;
     position: fixed;
     bottom: 0px;
@@ -106,7 +105,7 @@
   }
 
   .button {
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     display: block;
     margin-bottom: 6px;
     height: 45px;
@@ -129,13 +128,13 @@
     height: 18px;
 
     .link {
-      color: #fff;        
+      color: #fff;
       text-decoration: underline;
       font-size: 14px;
       font-weight: 500;
       &:hover {
         transition: color 0.3s ease;
-        color: $grey-70;       
+        color: $grey-70;
       }
     }
   }
@@ -150,5 +149,17 @@
   }
   .feature-description {
     text-align: start;
+  }
+}
+
+@media (max-width: 947px) {
+  .projects .card {
+    width: calc(50% - 15px);
+  }
+} 
+
+@media (max-width: 690px) {
+  .projects .card {
+    width: 100%;
   }
 }
