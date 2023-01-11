@@ -1,71 +1,323 @@
 {
-    "navbar": {
-        "firstName": "Nicolas ",
-        "lastName": "HORNUEL",
-        "tabs": [
-            {
-                "name": "Accueil",
-                "href": "#home"
-            },
-            {
-                "name": "A propos",
-                "href": "#about"
-            }
-        ]
-    },
-    "home": {
-        "imgSrc": "../img/portrait-v4.jpg",
-        "text1": "Bonjour, mon nom est",
-        "text2": "Nicolas HORNUEL",
-        "text3": "Je suis ",
-        "span": [
-            "Développeur Angular",
-            "UX/UI Designer",
-            "Développeur Java Spring"
-        ]
-    },
-    "about": {
-        "title": "A propos de moi",
-        "subtitle": "Qui je suis",
-        "text": "Nicolas HORNUEL | ",
-        "span": [
-            "Développeur Angular",
-            "UX/UI Designer",
-            "Développeur Java Spring"
-        ],
-        "imgSrc": "img/portrait-v2.jpg",
-        "paragraph": "Après avoir travaillé de nombreuses années en tant que technicien graphique au sein d'imprimerie Offset, j'ai souhaité changé et apprendre la programmation et le développement logiciel. J'ai donc suivi une formation de Concepteur et Développeur d'Application de 9 mois sur les technos Web actuelles. Aujourd'hui je poursuis mon apprentissage et vous présente ci-dessous mes compétences."
-    },
-    "projets": [
-        {
-            "title": "PoC d'évaluation d'entrée en stage",
-            "synopsis": "Sur le thème de la musique",
-            "feature": [
-                {
-                    "title": "Front-End",
-                    "description": "Framework Angular v12, Material UI Components."
-                },
-                {
-                    "title": "Back-End",
-                    "description": "Nodejs, API Rest, monolithique, Postman."
-                },
-                {
-                    "title": "Database",
-                    "description": "Firestore de type document/collection, Realtime de type arbre JSON."
-                },
-                {
-                    "title": "API",
-                    "description": "Youtube, Wikipedia, Discogs, RadioFrance (GraphQL)"
-                }
-            ]
-        }
-    ],
-    "card": [
-        {
-            "img": "./img/music-video-center.png",
-            "title": "PoC Music-Video-Center",
-            "paragraph": "development web app about music with angular v12, material components, Back-End Nodejs, Database and hosting with Google Firebase. Call API Wikipedia, Youtube, Discogs, RadioFrance (GraphQL).",
-            "href": "https://fourthproject-aff75.web.app/"
-        }
+  "navbar": {
+    "firstName": "Nicolas ",
+    "lastName": "HORNUEL",
+    "tabs": [
+      {
+        "name": "Accueil",
+        "href": "#home"
+      },
+      {
+        "name": "A propos",
+        "href": "#about"
+      },
+      {
+        "name": "Projets",
+        "href": "#projects"
+      },
+      {
+        "name": "Compétences",
+        "href": "#skills"
+      },
+      {
+        "name": "Références",
+        "href": "#references"
+      }
     ]
+  },
+  "home": {
+    "imgSrc": "../img/portrait-v4.jpg",
+    "text1": "Bonjour, mon nom est",
+    "text2": "Nicolas HORNUEL",
+    "text3": "Je suis ",
+    "span": ["Développeur Angular", "Développeur Java Spring", "Développeur FullStack", "Développeur Web", "UX/UI Designer", "Développeur Front-End", "Développeur Back-End"]
+  },
+  "about": {
+    "title": "A propos de moi",
+    "subtitle": "Qui je suis",
+    "text": "Nicolas HORNUEL | ",
+    "span": ["Développeur Angular", "Développeur Java Spring", "Développeur FullStack", "Développeur Web", "UX/UI Designer", "Développeur Front-End", "Développeur Back-End"],
+    "imgSrc": "img/portrait-v2.jpg",
+    "paragraph": "Après avoir travaillé de nombreuses années en tant que technicien graphique au sein d'imprimerie Offset, j'ai souhaité changé et apprendre la programmation et le développement logiciel. J'ai donc suivi une formation de Concepteur et Développeur d'Application de 9 mois sur les technos Web actuelles. Aujourd'hui je poursuis mon apprentissage et vous présente ci-dessous mes compétences."
+  },
+  "projets": {
+    "title": "Mes projets",
+    "subtitle": "Savoir faire",
+    "cards": [
+      {
+        "icon": "fas fa-music fa-3x",
+        "title": "Music Center",
+        "synopsis": "Exercice d'évaluation avec Angular, Material, hébergement Firebase, Cloud function en NodeJs, Base de données Firestore de type collection, API Youtube / Wikipedia / Discogs / RadioFrance (GraphQL)",
+        "linkApp": "https://fourthproject-aff75.web.app/",
+        "compodoc": ["https://nicolashornuel.github.io/firebase/index.html"]
+      },
+      {
+        "icon": "fas fa-crop-alt fa-3x",
+        "title": "Recadrer une image",
+        "synopsis": "Exercice d'évaluation avec Angular, Bootstrap, canvas HTML element, API Rest avec Spring et Java v11, hébergement GCP, Base de données MySQL Clever Cloud, Notification en WebSocket ",
+        "linkApp": "https://geomatys-frontend.web.app/",
+        "compodoc": "https://nicolashornuel.github.io/geomatys-frontend/index.html",
+        "javadoc": "https://nicolashornuel.github.io/geomatys-backend/index.html"
+      },
+      {
+        "icon": "fas fa-chart-line fa-3x",
+        "title": "Marché Forex",
+        "synopsis": "Projet personnel avec Angular, Nebular, hébergement Firebase Serverless, base de données Firestore, Scripts Widget TradingView, Authentification sociale (Google, Facebook, GitHub), API Fxcm",
+        "linkApp": "https://my-station-a49f7.firebaseapp.com/"
+      },
+      {
+        "icon": "fas fa-swatchbook fa-3x",
+        "title": "Prototypage",
+        "synopsis": "Projet professionnel : prototypage HTML5, SASS, Vanilla JS, Versionning Git. Hébergement Cloud Run avec Docker",
+        "linkApp": "https://layouts-xqzfndh6oq-od.a.run.app"
+      },
+      {
+        "icon": "fab fa-figma fa-3x",
+        "title": "UX/UI design",
+        "synopsis": "Projet professionnel : maquettage et collaboration sous Figma selon les Wireframes Balsamiq et Users-Stories présentes sous Jira, respect du StyleGuide du groupe, recherche de solution tierces ou natives HTML5-CSS3.",
+        "linkApp": "https://test-material-xqzfndh6oq-od.a.run.app"
+      },
+      {
+        "icon": "fas fa-print fa-3x",
+        "title": "Reporting",
+        "synopsis": "Projet professionnel : élaboration des templates de rapport simple et complexe avec JasperStudio, faisabilité de mise en production avec Angular, Java Spring v17, JasperReport, hébergement Cloud Run avec Docker",
+        "linkApp": "https://report-frontend-xqzfndh6oq-od.a.run.app/"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mes compétences",
+    "subtitle": "Ce que je connais",
+    "bars": [
+      {
+        "icon": "devicon-java-plain",
+        "techno": "JAVA",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-angularjs-plain",
+        "techno": "ANGULAR",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-html5-plain",
+        "techno": "HTML",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-css3-plain",
+        "techno": "CSS",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-sass-plain",
+        "techno": "SCSS",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-javascript-plain",
+        "techno": "JAVASCRIPT",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-typescript-plain",
+        "techno": "TYPESCRIPT",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-bootstrap-plain",
+        "techno": "BOOTSTRAP",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-d3js-plain",
+        "techno": "D3 JS",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-spring-plain",
+        "techno": "SPRING",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-docker-plain",
+        "techno": "DOCKER",
+        "level": "Débutant",
+        "percent": "20%"
+      },
+      {
+        "icon": "devicon-figma-plain",
+        "techno": "FIGMA",
+        "level": "Autonome",
+        "percent": "60%"
+      },
+      {
+        "icon": "devicon-firebase-plain",
+        "techno": "FIREBASE",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-googlecloud-plain",
+        "techno": "GOOGLE CLOUD",
+        "level": "Débutant",
+        "percent": "20%"
+      },
+      {
+        "icon": "devicon-git-plain",
+        "techno": "GIT",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-jira-plain",
+        "techno": "JIRA",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-mysql-plain",
+        "techno": "MYSQL",
+        "level": "Fondamentaux acquis",
+        "percent": "40%"
+      },
+      {
+        "icon": "devicon-vscode-plain",
+        "techno": "VSCODE",
+        "level": "Autonome",
+        "percent": "60%"
+      }
+    ]
+  },
+  "references": {
+    "title": "Mes références",
+    "subtitle": "qui m'apprécie",
+    "cards": [
+      {
+        "label": "Communication relationnelle en entreprise - J1 & J2",
+        "appreciation": "A l'écoute et bienveillant, tu as montré de bonnes capacités à communiquer et collaborer. Continue de prendre confiance en ta communication en public."
+      },
+      {
+        "label": "Gestion des versions avec GIT",
+        "appreciation": "Bonne compréhension de l'utilisation de Git pendant les TP et bonne participation."
+      },
+      {
+        "label": "Conception et maquettage d'une interface - UX Design / Mockup",
+        "appreciation": "Bon travail, j'aurai aimé plus d'écrans par rapport à certains. Il manque la confirmation du PR enregistré par exemple."
+      },
+      {
+        "label": "Concevoir des pages web avec Préprocesseur CSS (SASS) et Bootstrap",
+        "appreciation": "Vous avez bien progressé dans tous les domaines."
+      },
+      {
+        "label": "Front - Développer des pages web avec Javascript",
+        "appreciation": "Vous manquez un peu de confiance en vous mais vous avez bien progressé en javascript. Votre travail l'atteste. Continuez vos efforts et forcez vous à participer un peu plus."
+      },
+      {
+        "label": "Introduction à UML",
+        "appreciation": "Très bien. Tous les concepts sont acquis."},
+      {
+        "label": "Back - Mise en place avec HTTP et Node.JS",
+        "appreciation": "Très bon travail rendu. Participation pertinente."
+      },
+      {
+        "label": "Projet de fin de formation CCP1 - Finalisation",
+        "appreciation": "Très bon travail rendu. Quelques fautes. Quelques endpoints manquent à l'appel mais vous avez montré une bonne comprehension dans l'ensemble."
+      },
+      {
+        "label": "Communication relationnelle en entreprise - J3 & J4",
+        "appreciation": "Spontané et structuré, tu as effectué une bonne présentation en public. Bravo ! Continue de travailler sur ton esprit de synthèse afin de gagner en efficacité lors tes prochaines prises de parole en public."
+      },
+      {
+        "label": "Langage Java - Approche impérative",
+        "appreciation": "Très bien, les concepts sont compris."
+      },
+      {
+        "label": "Langage Java - Approche impérative - Mise en oeuvre",
+        "appreciation": "Très bon travail. Les concepts sont acquis. Bien joué pour FabriquerMur ! Dommage que quelques exercices ne fonctionnent pas."
+      },
+      {
+        "label": "Langage Java - Approche orientée objet - Théorie",
+        "appreciation": "Excellent travail. Tous les concepts sont acquis."
+      },
+      {
+        "label": "Langage Java - Approche orientée objet - Mise en oeuvre tutorée",
+        "appreciation": "Excellent travail. Tous les concepts sont acquis."
+      },
+      {
+        "label": "MCD, MPD - Conception et modélisation d'une base de données relationnelles",
+        "appreciation": "Excellent travail."
+      },
+      {
+        "label": "Développement de procédures stockées en PL/SQL et triggers (3j)",
+        "appreciation": "Très bien. TP1 : ok. TP2 : ok. exo 62 : ok. exo 67 : ok. exo 68 (en groupe) : très bien"
+      },
+      {
+        "label": "Langage Java - JDBC",
+        "appreciation": "Excellent travail. Vous êtes discret mais vous faites le boulot !"
+      },
+      {
+        "label": "Langage Java - Accès aux données avec JPA (3j)",
+        "appreciation": "Excellent travail. Tous les concepts sont acquis. Une petite remarque sur le TP open food facts: il manque juste la javadoc sinon c'est très bien."
+      },
+      {
+        "label": "Projet de fin de formation CCP2 - Finalisation",
+        "appreciation": "Vous avez réalisé un excellent travail. Presque toutes les fonctionnalités sont opérationnelles. Il ne manque que la javadoc."
+      },
+      {
+        "label": "Conception UML et Model Driven Development (1j)",
+        "appreciation": "Très bien. Tous les concepts sont compris."
+      },
+      {
+        "label": "Projet fil rouge CCP3 - Réalisation d'une analyse",
+        "appreciation": "C'est du très bon travail. Les maquettes sont de très belle facture. Il ne manque que quelques informations sur les règles de codage par exemple."
+      },
+      {
+        "label": "Langage Java - Spécificités de Java 11",
+        "appreciation": "Excellent travail. Tous les concepts sont acquis. Attention, sur l'exercice 7 des dates, la méthode ofInstant existe sur LocalDateTime et non LocalDate."
+      },
+      {
+        "label": "Spring Framework - Présentation (Web, MVC & Services REST) (7j)",
+        "appreciation": "Bonne compréhension des mécanismes de Spring et très bon travail sur les TP."
+      },
+      {
+        "label": "Front - Développer des applications Web riches avec Angular (9j)",
+        "appreciation": "Bonne compréhension et très bon travail sur les TP"
+      },
+      {
+        "label": "Projet fil rouge CCP3 - Réalisation partie front avec Angular",
+        "appreciation": "Très bon travail, vous avez pu implémenter la navigation dans la carte et l'extraction des données et aussi la barre des favoris mais il vous manque les validateurs et aussi quelques fonctionnalités telles que la modification des utilisateurs et d'autres dans forum"
+      },
+      {
+        "label": "Spring Framework - Security",
+        "appreciation": "Très bon travail. Tous les concepts sont acquis."
+      },
+      {
+        "label": "Mise en place d'une campagne de tests",
+        "appreciation": "Bon travail."
+      },
+      {
+        "label": "IONIC : Conception et Développement pour hybride mobile.",
+        "appreciation": "Très bien. Tous les travaux pratiques on été réalisés. Les parties optionnelles des travaux pratiques on été réalisées. Tu as participé activement au cours et es très intéressé par le sujet."
+      },
+      {
+        "label": "Bilan de formation",
+        "appreciation": "Les objectifs pédagogiques de la formation sont largement atteints. Nicolas est opérationnel pour intégrer en autonomie une équipe projet."
+      },
+      {
+        "label": "Suivi tuteur entreprise",
+        "appreciation": "Nicolas est une personne sérieuse et rigoureuse."
+      }
+    ]
+  }
 }

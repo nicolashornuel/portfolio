@@ -53,6 +53,10 @@
     .brand span {
         color: #fff;
     }
+
+    .menu li a:hover {
+        color: $grey-70;
+    }
 }
 
 @media (max-width: 947px) {

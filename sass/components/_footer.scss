@@ -1,0 +1,18 @@
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+
+    span a {
+        color: $primary-color;
+        text-decoration: none;
+    }
+
+    span a:hover {
+        text-decoration: underline;
+
+    }
+
+}

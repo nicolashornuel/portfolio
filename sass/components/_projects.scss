@@ -1,0 +1,154 @@
+.projects {
+  background-color: #111;
+  .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    color: #fff;
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      width: 180px;
+      height: 3px;
+      background: #fff;
+      transform: translateX(-50%);
+    }
+
+    &:after {
+      content: attr(subtitle);
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      font-size: 20px;
+      color: $primary-color;
+      padding: 0 5px;
+      background: #111;
+      transform: translateX(-50%);
+    }
+  }
+  .projects-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30px;
+  }
+}
+
+.projects .card {
+  width: calc(33% - 20px);
+  background: #222;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 35px 25px;
+  cursor: default;
+  transition: all .3s ease;
+  align-self: stretch;
+  display: flex;
+  
+  &:hover {
+    background: $primary-color;
+    .card-body {
+      transform: scale(1.05);
+    }
+    i {
+      color: #fff;
+    }
+    .synopsis {
+      left: -100%;
+    }
+    .action {
+      left: 0px;
+    }
+
+  }
+  .card-body {
+    transition: transform .3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 12px 0;
+  }
+
+  i {
+    transition: all .3s ease;
+    color: $primary-color;
+  }
+
+  .synopsis {
+    transition: all .3s ease;
+    position: relative;
+    left: 0px;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+  }
+
+  .action {
+    transition: all .3s ease;
+    left: 120%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+
+  .button {
+    transition: all .3s ease;
+    display: block;
+    margin-bottom: 6px;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    color: $primary-color;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: $white-color;
+    &:hover {
+      background-color: $grey-70;
+    }
+  }
+
+  .docs {
+    display: flex;
+    justify-content: space-around;
+    height: 18px;
+
+    .link {
+      color: #fff;        
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: 500;
+      &:hover {
+        transition: color 0.3s ease;
+        color: $grey-70;       
+      }
+    }
+  }
+}
+
+.feature-paragraph {
+  text-align: start;
+  margin: 10px 0;
+  .feature-title {
+    margin: 10px 0 7px 0;
+    opacity: 0.5;
+  }
+  .feature-description {
+    text-align: start;
+  }
+}

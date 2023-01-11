@@ -1,20 +1,26 @@
 import Navbar from "./classes/Navbar.js";
 import About from "./classes/About.js";
 import Fetch from "./services/Fetch.js";
-import Projet from "./classes/Projet.js";
+import Projets from "./classes/Projets.js";
 import Home from "./classes/Home.js";
 import ScrollUpBtn from "./classes/ScrollUpBtn.js";
+import Skills from "./classes/Skills.js";
+import References from "./classes/References.js";
+import Footer from "./classes/Footer.js";
 
 async function createPage() {
   const url = "./js/data.json";
   const fetch = new Fetch(url);
   const data = await fetch.getData();
   const obj = JSON.parse(data);
-  const scrollUpBtn = new ScrollUpBtn();
-  const navbar = new Navbar(obj.navbar);
-  const home = new Home(obj.home);
-  const jumbotron = new About(obj.about);
-  //const projets = new Projet(obj.projets);
+  new ScrollUpBtn();
+  new Navbar(obj.navbar);
+  new Home(obj.home);
+  new About(obj.about);
+  new Projets(obj.projets);
+  new Skills(obj.skills);
+  new References(obj.references);
+  new Footer();
 }
 
 window.onscroll = () => {

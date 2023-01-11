@@ -4,9 +4,9 @@
     margin: auto;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 690px) {
     .max-width {
-        padding: 0 50px;
+        padding: 0 23px;
     }
 }
 
@@ -16,9 +16,9 @@
     }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 991px) {
     .max-width {
-        padding: 0 23px;
+        padding: 0 50px;
     }
 }
 
