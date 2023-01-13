@@ -204,7 +204,7 @@
     "subtitle": "qui m'apprécie",
     "cards": [
       {
-        "label": "Communication relationnelle en entreprise - J1 & J2",
+        "label": "Communication relationnelle en entreprise",
         "appreciation": "A l'écoute et bienveillant, tu as montré de bonnes capacités à communiquer et collaborer. Continue de prendre confiance en ta communication en public."
       },
       {
@@ -224,9 +224,6 @@
         "appreciation": "Vous manquez un peu de confiance en vous mais vous avez bien progressé en javascript. Votre travail l'atteste. Continuez vos efforts et forcez vous à participer un peu plus."
       },
       {
-        "label": "Introduction à UML",
-        "appreciation": "Très bien. Tous les concepts sont acquis."},
-      {
         "label": "Back - Mise en place avec HTTP et Node.JS",
         "appreciation": "Très bon travail rendu. Participation pertinente."
       },
@@ -235,31 +232,19 @@
         "appreciation": "Très bon travail rendu. Quelques fautes. Quelques endpoints manquent à l'appel mais vous avez montré une bonne comprehension dans l'ensemble."
       },
       {
-        "label": "Communication relationnelle en entreprise - J3 & J4",
+        "label": "Communication relationnelle en entreprise",
         "appreciation": "Spontané et structuré, tu as effectué une bonne présentation en public. Bravo ! Continue de travailler sur ton esprit de synthèse afin de gagner en efficacité lors tes prochaines prises de parole en public."
-      },
-      {
-        "label": "Langage Java - Approche impérative",
-        "appreciation": "Très bien, les concepts sont compris."
       },
       {
         "label": "Langage Java - Approche impérative - Mise en oeuvre",
         "appreciation": "Très bon travail. Les concepts sont acquis. Bien joué pour FabriquerMur ! Dommage que quelques exercices ne fonctionnent pas."
       },
       {
-        "label": "Langage Java - Approche orientée objet - Théorie",
-        "appreciation": "Excellent travail. Tous les concepts sont acquis."
-      },
-      {
         "label": "Langage Java - Approche orientée objet - Mise en oeuvre tutorée",
         "appreciation": "Excellent travail. Tous les concepts sont acquis."
       },
       {
-        "label": "MCD, MPD - Conception et modélisation d'une base de données relationnelles",
-        "appreciation": "Excellent travail."
-      },
-      {
-        "label": "Développement de procédures stockées en PL/SQL et triggers (3j)",
+        "label": "Développement de procédures stockées en PL/SQL et triggers",
         "appreciation": "Très bien. TP1 : ok. TP2 : ok. exo 62 : ok. exo 67 : ok. exo 68 (en groupe) : très bien"
       },
       {
@@ -267,16 +252,12 @@
         "appreciation": "Excellent travail. Vous êtes discret mais vous faites le boulot !"
       },
       {
-        "label": "Langage Java - Accès aux données avec JPA (3j)",
+        "label": "Langage Java - Accès aux données avec JPA",
         "appreciation": "Excellent travail. Tous les concepts sont acquis. Une petite remarque sur le TP open food facts: il manque juste la javadoc sinon c'est très bien."
       },
       {
         "label": "Projet de fin de formation CCP2 - Finalisation",
         "appreciation": "Vous avez réalisé un excellent travail. Presque toutes les fonctionnalités sont opérationnelles. Il ne manque que la javadoc."
-      },
-      {
-        "label": "Conception UML et Model Driven Development (1j)",
-        "appreciation": "Très bien. Tous les concepts sont compris."
       },
       {
         "label": "Projet fil rouge CCP3 - Réalisation d'une analyse",
@@ -287,24 +268,12 @@
         "appreciation": "Excellent travail. Tous les concepts sont acquis. Attention, sur l'exercice 7 des dates, la méthode ofInstant existe sur LocalDateTime et non LocalDate."
       },
       {
-        "label": "Spring Framework - Présentation (Web, MVC & Services REST) (7j)",
+        "label": "Spring Framework - Présentation (Web, MVC & Services REST)",
         "appreciation": "Bonne compréhension des mécanismes de Spring et très bon travail sur les TP."
       },
       {
-        "label": "Front - Développer des applications Web riches avec Angular (9j)",
+        "label": "Front - Développer des applications Web riches avec Angular",
         "appreciation": "Bonne compréhension et très bon travail sur les TP"
-      },
-      {
-        "label": "Projet fil rouge CCP3 - Réalisation partie front avec Angular",
-        "appreciation": "Très bon travail, vous avez pu implémenter la navigation dans la carte et l'extraction des données et aussi la barre des favoris mais il vous manque les validateurs et aussi quelques fonctionnalités telles que la modification des utilisateurs et d'autres dans forum"
-      },
-      {
-        "label": "Spring Framework - Security",
-        "appreciation": "Très bon travail. Tous les concepts sont acquis."
-      },
-      {
-        "label": "Mise en place d'une campagne de tests",
-        "appreciation": "Bon travail."
       },
       {
         "label": "IONIC : Conception et Développement pour hybride mobile.",
