@@ -55,7 +55,7 @@
         "icon": "fas fa-crop-alt fa-3x",
         "title": "Recadrer une image",
         "synopsis": "Exercice d'évaluation avec Angular, Bootstrap, canvas HTML element, API Rest avec Spring et Java v11, hébergement GCP, Base de données MySQL Clever Cloud, Notification en WebSocket ",
-        "linkApp": "https://geomatys-frontend.web.app/",
+        "linkApp": "https://geomatys-frontend-xqzfndh6oq-od.a.run.app",
         "compodoc": "https://nicolashornuel.github.io/geomatys-frontend/index.html",
         "javadoc": "https://nicolashornuel.github.io/geomatys-backend/index.html"
       },
