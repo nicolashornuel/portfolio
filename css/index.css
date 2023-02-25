@@ -289,7 +289,7 @@ footer span a:hover {
   color: #fff;
 }
 .navbar.sticky .menu li a:hover {
-  color: hsl(0deg, 0%, 70%);
+  color: hsl(0, 0%, 70%);
 }
 
 @media (max-width: 947px) {
@@ -434,10 +434,10 @@ footer span a:hover {
   font-size: 18px;
   border-radius: 6px;
   cursor: pointer;
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
 }
 .projects .card .button:hover {
-  background-color: hsl(0deg, 0%, 70%);
+  background-color: hsl(0, 0%, 70%);
 }
 .projects .card .docs {
   display: flex;
@@ -452,7 +452,7 @@ footer span a:hover {
 }
 .projects .card .docs .link:hover {
   transition: color 0.3s ease;
-  color: hsl(0deg, 0%, 70%);
+  color: hsl(0, 0%, 70%);
 }
 
 .feature-paragraph {
@@ -543,6 +543,7 @@ footer span a:hover {
   margin: auto;
 }
 .references .card .appreciation i {
+  transition: all 0.3s ease;
   color: royalblue;
   margin-bottom: 12px;
 }
@@ -557,8 +558,8 @@ footer span a:hover {
 .references .card:hover .card-body {
   transform: scale(1.05);
 }
-.references .card:hover .appreciation {
-  border-left-color: hsl(0deg, 0%, 60%);
+.references .card:hover .appreciation i {
+  color: hsl(0, 0%, 100%);
 }
 
 .references .carousel .owl-stage {
@@ -678,7 +679,7 @@ footer span a:hover {
 }
 .skills .span-right {
   font-weight: 500;
-  color: hsl(0deg, 0%, 60%);
+  color: hsl(0, 0%, 60%);
   font-size: 12px;
 }
 .skills i {
@@ -689,7 +690,7 @@ footer span a:hover {
 .skills .percent {
   height: 5px;
   width: 100%;
-  background: hsl(0deg, 0%, 80%);
+  background: hsl(0, 0%, 80%);
   position: relative;
 }
 .skills .percent:before {
