@@ -55,7 +55,7 @@
         "icon": "fas fa-crop-alt fa-3x",
         "title": "Recadrer une image",
         "synopsis": "Exercice d'évaluation avec Angular, Bootstrap, canvas HTML element, API Rest avec Spring et Java v11, hébergement GCP, Base de données MySQL Clever Cloud, Notification en WebSocket ",
-        "linkApp": "https://geomatys-frontend-xqzfndh6oq-od.a.run.app",
+        "linkApp": "https://geomatys-frontend-blfd6t66sq-od.a.run.app",
         "compodoc": "https://nicolashornuel.github.io/geomatys-frontend/index.html",
         "javadoc": "https://nicolashornuel.github.io/geomatys-backend/index.html"
       },
@@ -69,19 +69,19 @@
         "icon": "fas fa-swatchbook fa-3x",
         "title": "Prototypage",
         "synopsis": "Projet professionnel : prototypage HTML5, SASS, Vanilla JS, Versionning Git. Hébergement Cloud Run avec Docker",
-        "linkApp": "https://layouts-xqzfndh6oq-od.a.run.app"
+        "linkApp": "https://fsp-layouts-blfd6t66sq-od.a.run.app"
       },
       {
-        "icon": "fab fa-figma fa-3x",
-        "title": "UX/UI design",
-        "synopsis": "Projet professionnel : maquettage et collaboration sous Figma selon les Wireframes Balsamiq et Users-Stories présentes sous Jira, respect du StyleGuide du groupe, recherche de solution tierces ou natives HTML5-CSS3.",
-        "linkApp": "https://test-material-xqzfndh6oq-od.a.run.app"
+        "icon": "fas fa-flask fa-3x",
+        "title": "Refonte",
+        "synopsis": "Développement d'un site vitrine avec socle JHipster",
+        "linkApp": "https://www.cltech.fr/"
       },
       {
         "icon": "fas fa-print fa-3x",
         "title": "Reporting",
         "synopsis": "Projet professionnel : élaboration des templates de rapport simple et complexe avec JasperStudio, faisabilité de mise en production avec Angular, Java Spring v17, JasperReport, hébergement Cloud Run avec Docker",
-        "linkApp": "https://report-frontend-xqzfndh6oq-od.a.run.app/"
+        "linkApp": "https://report-angular-blfd6t66sq-od.a.run.app"
       }
     ]
   },
