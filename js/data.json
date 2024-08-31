@@ -60,10 +60,10 @@
         "javadoc": "https://nicolashornuel.github.io/geomatys-backend/index.html"
       },
       {
-        "icon": "fas fa-chart-line fa-3x",
-        "title": "Marché Forex",
-        "synopsis": "Projet personnel avec Angular, Nebular, hébergement Firebase Serverless, base de données Firestore, Scripts Widget TradingView, Authentification sociale (Google, Facebook, GitHub), API Fxcm",
-        "linkApp": "https://my-station-a49f7.firebaseapp.com/"
+        "icon": "fas fa-people-roof fa-3x",
+        "title": "Assistant familial",
+        "synopsis": "Projet personnel avec Angular, Firestore, Cloud Function, Authentification sociale, CI/CD GitHub Actions",
+        "linkApp": "https://agenda-bf245.web.app/"
       },
       {
         "icon": "fas fa-swatchbook fa-3x",
